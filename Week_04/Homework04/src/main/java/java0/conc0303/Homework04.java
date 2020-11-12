@@ -3,7 +3,12 @@ package java0.conc0303;
 
 import sun.jvm.hotspot.debugger.ThreadAccess;
 
+import java.util.Collections;
 import java.util.concurrent.*;
+import java.util.concurrent.locks.ReadWriteLock;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.concurrent.locks.StampedLock;
+import java.util.stream.Collectors;
 
 public class Homework04 {
 
@@ -123,10 +128,16 @@ public class Homework04 {
         }
         return fibo(a-1) + fibo(a-2);
     }
+//    CompletableFuture
+//Collections.synchronizedCollection()
+    CompletionService
+//synchronized
 
+//    ReentrantLock
+//    ReadWriteLock
+//    StampedLock
 
-
-
+//ThreadPoolExecutor;
 }
 
 
